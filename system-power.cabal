@@ -31,4 +31,4 @@ test-suite system-power-test
 
 source-repository head
   type:     git
-  location: https://github.com/githubuser/system-power
+  location: https://github.com/YLiLarry/system-power.git
