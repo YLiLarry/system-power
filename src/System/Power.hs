@@ -45,3 +45,9 @@ currentPower = do
 
 #endif
 
+#ifdef darwin_HOST_OS
+
+suggestPower _ = return ()
+currentPower = return Default
+
+#endif
